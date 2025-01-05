@@ -1,9 +1,7 @@
-import pytest
-
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-import cs236781.dataloader_utils as dl_utils
+from introduction_to_classifiers import cs236781 as dl_utils
 
 DATASET_SIZE = 1000
 DATA_SIZE = 100

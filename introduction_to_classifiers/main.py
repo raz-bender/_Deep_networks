@@ -7,8 +7,8 @@ import zipfile
 import argparse
 import subprocess
 
-import cs236781.answers as answers
-import cs236781.jupyter_utils as jupyter_utils
+import introduction_to_classifiers.cs236781.answers as answers
+from introduction_to_classifiers import cs236781 as jupyter_utils
 
 SUBMISSION_NAME_PATTERN = re.compile(r"hw\d-(\d+_?)+")
 SUBMISSION_ZIPF_PATTERN = re.compile(SUBMISSION_NAME_PATTERN.pattern + r"\.zip")
